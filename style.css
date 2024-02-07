@@ -12,7 +12,7 @@ body{
     color: #fff;
 }
 
-header{
+.landing_header{
     width: 100vw;
     height: 100vh;
     background-image: url(./images/header_background.png);
