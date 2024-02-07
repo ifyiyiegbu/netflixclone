@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: poppins;
+    background-color: #000;
+    color: #fff;
+}
+
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./images/header_background.png);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+} 
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.nav_btns{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+} 
+
+.lang_btn{
+    display: flex;
+    flex-direction: row;
+    background-color: hsla(0, 9%, 7%, 0);
+    padding: 8px;
+    gap: 2px;
+    border: 1px white solid;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.lang{
+    color: #fff;
+
+}
+
+.signin_btn{
+    background-color: #df2323;
+    padding: 0 16px; 
+    border: 0;
+    outline: 0;
+    border-radius: 5px;  
+    cursor: pointer;
+}
+
+.signin{
+    color: #fff;
+}
+
+.logo{
+    width: 150px;
+}
+
+.header_txt{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.header_txt h1{
+    font-weight: 600;
+    font-size: 3.5rem;
+    line-height: 70px;
+}
+
+.header_txt h4{
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+    font-size: 20px;
+}
+
+.header_txt p{
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+
+.signup_email{
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.signup_email input{
+    flex: 1;
+    border: 0;
+    outline: 0;
+    margin-left: 20px; 
+    padding: 1.2rem 1.8rem;
+
+}
+
+.start{
+    display: flex;
+    gap: 12px;
+    background-color: #df2323;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    font-size: 1rem;
+    padding: 1.1rem 1.8rem;
+}
+
+main{
+    width: 100%;
+}
+
+.landing_rect{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 13rem;
+}
+
+.sec_heading{
+    font-weight: 600;
+    font-size: 38px;
+    margin-bottom: 1rem;
+}
+
+.sec_paragraph{
+    font-weight: 300;
+    font-size: 20px;
+    max-width: 60%;
+}
