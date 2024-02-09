@@ -32,7 +32,7 @@ nav{
 .nav_btns{
     display: flex;
     flex-direction: row;
-    gap: 2rem;
+    gap: 2em;
 } 
 
 .lang_btn{
@@ -42,7 +42,7 @@ nav{
     padding: 8px;
     gap: 4px;
     border: 1px white solid;
-    border-radius: 2px;
+    border-radius: 4px;
     cursor: pointer;
 }
 
@@ -80,19 +80,19 @@ nav{
 .header_txt h1{
     font-weight: 700;
     font-size: 3.5rem;
-    line-height: 70px;
-    margin-bottom: 1rem;
+    line-height: 1.3em;
+    margin-bottom: 0.2em;
 }
 
 .header_txt h4{
     font-weight: 400;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1em;
     font-size: 24px;
 }
 
 .subscribe{
     font-weight: 500;
-    font-size: 18px;
+    font-size: 19px;
     margin-bottom: 1rem;
 }
 
@@ -121,7 +121,7 @@ nav{
     outline: 0;
     color: #fff;
     font-size: 1.7rem;
-    padding: 1.1rem 1.8rem;
+    padding: 0.63em 1.4em;
     cursor: pointer;
 }
 
@@ -130,7 +130,7 @@ main{
 }
 
 .demarcate{
-    width: 100%;
+    width: 100vw;
     border: 4px solid #353434;
 }
 
@@ -138,7 +138,7 @@ main{
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 2rem 12rem;
+    padding: 2em 12em;
 }
 
 .sec_heading{
@@ -244,4 +244,155 @@ footer{
 
 .location{
     font-size: 14px;
+}
+
+.signin_page{
+    background: url(./images/image\ 2.png);
+    width: 100vw;
+    height: 100%;
+    background-size: cover;
+}
+
+
+.signin_box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 2rem 33rem 2rem 39rem;
+    padding: 4rem 4.5rem;
+    border-radius: 4px;
+}
+
+.signin_header .logo{
+    margin-top: 20px;
+    margin-left: 55px;
+}
+
+.signin_box h4{
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.signin_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.signin_form input{
+    background-color:#333333;
+    border: 0;
+    outline: 0;
+    border-radius: 4px;
+    padding: 0.9rem 6rem 0.9rem 1rem;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+
+.signin_form button{
+    background-color: #E50914;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.12px;
+    text-align: center;
+    border: 0;
+    outline: 0;
+    border-radius: 4px;
+    padding: 0.9rem 0;
+    margin-top: 1.3em;
+    cursor: pointer;
+}
+
+.help{
+    display: flex;
+    flex-direction: row;
+    font-size: 13px;
+    font-weight: 500;
+    color: #b3b3b3;
+    gap: 8.15em;
+    margin-left: 2em;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+.facebook{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 2em;
+    margin-bottom: 1.2em;
+}
+
+.facebook img{
+    width: 20px;
+    height: 20px;
+}
+
+.facebook p{
+    font-size: 13px;
+    font-weight: 500;
+    color: #737373;
+}
+
+.new_member{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.new{
+    font-weight: 500;
+    font-size: 16px;
+    color: #737373;
+}
+
+.new_signup{
+    cursor: pointer;
+}
+
+.recaptcha{
+    font-weight: 400;
+    font-size: 13px;
+    color: #8c8c8c;
+    line-height: 15.3px;
+    margin-top: 1em;
+}
+
+.signin_footer{
+    background-color: #000;
+    opacity: 0.7;
+}
+
+.footer_text{
+    padding: 3em 25em;
+}
+.phone{
+    color: #757575;
+}
+
+.signin_footer_nav{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 12em;
+    flex-wrap: wrap;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16.6px;
+    color: #757575;
+}
+
+.second{
+    gap: 4.2em;
+    margin-top: 1.5em;
+    margin-bottom: 2.5em;
 }
