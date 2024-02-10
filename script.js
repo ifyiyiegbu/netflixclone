@@ -12,17 +12,30 @@ signinLink.addEventListener('click', e => {
     signinPage.classList.remove('hidden');
   });
 
-  signUpLink.addEventListener('click', e => {
+signUpLink.addEventListener('click', e => {
     landingPage.classList.add('hidden')
     signinPage.classList.remove('hidden');
   });
 
-  loginLink.addEventListener('click', e => {
-    signinPage.classList.add('hidden')
-    profilesPage.classList.remove('hidden');
+loginLink.addEventListener('click', e => {
+    if (areRequiredFieldsFilled()){
+        signinPage.classList.add('hidden')
+        landingPage.classList.add('hidden')
+        profilesPage.classList.remove('hidden');
+    }else{
+       alert("Please fill in all required fields.");
+    }
+   
   });
 
-  profileChoice.addEventListener('click', e => {
+function areRequiredFieldsFilled() {
+const emailInput = document.querySelector('.email');
+const passwordInput = document.querySelector('.password');
+
+    return usernameInput.value.trim() !== '' && passwordInput.value.trim() !== '';
+  }
+
+profileChoice.addEventListener('click', e => {
     profilesPage.classList.add('hidden')
     homePage.classList.remove('hidden');
   });
