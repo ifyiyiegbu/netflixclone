@@ -322,6 +322,7 @@ footer{
     margin-left: 2em;
     margin-top: 1em;
     margin-bottom: 2em;
+    cursor: pointer;
 }
 
 .facebook{
@@ -330,6 +331,7 @@ footer{
     gap: 10px;
     margin-top: 2em;
     margin-bottom: 1.2em;
+    cursor: pointer;
 }
 
 .facebook img{
@@ -395,4 +397,253 @@ footer{
     gap: 4.2em;
     margin-top: 1.5em;
     margin-bottom: 2.5em;
+}
+
+.profiles_page{
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+}
+
+.profiles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5em;
+    margin-bottom: 7em;
+}
+
+.profile_pics{
+    display: flex;
+    text-align: center;
+    color: #6D6D6E;
+    font-weight: 400;
+    font-size: 26px;
+    margin-bottom: 1.8em;
+    cursor: pointer;
+}
+
+.user{
+    font-weight: 400;
+    font-size: 4rem;
+    margin-bottom: 1em;
+}
+
+.lower_text{
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 2.2em;
+    color: #808080;
+    border: 1px solid #808080;
+    padding: 1px 1.5em;
+    cursor: pointer;
+}
+
+.profile_pics figure{
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+}
+
+.home_page{
+    width: 100%;
+}
+
+.menu_bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1.5em 4em;
+}
+
+.home_logo{
+    width: 111px;
+}
+
+.left_menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 3em;
+
+}
+
+.left_menu ul{
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.ana{
+    font-weight: 900;
+}
+
+.right_menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 1.5rem;
+    align-items: center;
+    cursor: pointer;
+}
+
+.giftbox{
+    margin-right: 1.5rem;
+}
+
+.bell{
+    margin-right: 1.5rem;
+}
+
+.highlighted{
+    background: url(./images/userside/MainMoviePoster.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 4rem;
+}
+
+.movie_name{
+    margin-top: 13em;
+}
+
+.rank{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 0px;
+}
+
+.rank span{
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.rank_paragraph{
+    width: 48%;
+    font-weight: 400;
+    font-size: 26px;
+}
+
+.highlighted_buttons{
+    display: flex;
+    gap: 1em;
+    margin-top: 1em;
+    margin-bottom: 2.5em;
+}
+
+.highlighted_buttons button{
+    border-radius: 5px;
+    outline: 0;
+    border: 0;
+}
+
+.more_info{
+    display: flex;
+    align-items: center;
+    padding-left: 3em;
+    padding-right: 3em;
+    background: #FFFFFF4D;
+    gap: 20px;
+}
+
+.button_text{
+    font-weight: 500;
+    font-size: 22px;
+    color: #fff;
+}
+
+.left_arrow{
+    margin-left: -60px;
+    margin-bottom: 70px;
+}
+
+.home_page h5{
+    font-weight: 500;
+    font-size: 26px;
+    color: #E5E5E5;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.home_page section{
+    width: 100%;
+    padding-left: 4rem;
+
+}
+
+.homepage_footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 1.2em 15em;
+}
+
+.social_icons img{
+    margin-top: 2em;
+    margin-right: 15px;
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+
+.nav_links{
+    display: flex;
+    flex-direction: row;
+    gap: 10em;
+    margin-bottom: 1rem;
+}
+
+.column1{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+.column2{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+.column3{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+.column4{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+a{
+    text-decoration: none;
+    color: #808080;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.hizmet{
+    width: 10%;
+    color: #808080;
+    font-weight: 400;
+    font-size: 13px;
+    background: none;
+    border: 1px solid #808080;
+    padding: 10px 15px;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.copyright{
+    font-weight: 300;
+    font-size: 11px;
+    color: #808080;
+}
+
+.hidden{
+    display: none;
 }
